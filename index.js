@@ -77,8 +77,8 @@ ban = []
 const vcard = 'BEGIN:VCARD\n' // JAN DI UBAH
             + 'VERSION:3.0\n' // JAN DI UBAH
             + 'FN: OWNER GANS\n' // NAMA KONTAK OWNER
-            + 'ORG:Creator ANKER;\n' // NAMA CREATOR
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // NOMER HP LU
+            + 'ORG:Creator RIFKY;\n' // NAMA CREATOR
+            + 'TEL;type=CELL;type=VOICE;waid=6281368965962:+62 813-6896-5962\n' // NOMER HP LU
             + 'END:VCARD'
 prefix = '#'
 blocked = ['6289655478810@s.whatsapp.net']
@@ -200,11 +200,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"6281368646011@s.whatsapp.net"]
+			const ownerNumber = ["6281368965962@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"6281368965962@s.whatsapp.net"]
 			const adminbotnumber = ["6281368646011@s.whatsapp.net"]
-			const frendsowner = ["6281368646011@s.whatsapp.net"]
-			const premium = ["6281368646011@s.whatsapp.net"]
+			const frendsowner = ["6285754840875@s.whatsapp.net"]
+			const premium = ["6281368965962@s.whatsapp.net"] ["6285754840875@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
